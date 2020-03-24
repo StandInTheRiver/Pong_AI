@@ -349,26 +349,26 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <Reference Include="Google.Protobuf">
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
  <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
+ <Reference Include="System.IO.Abstractions">
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
  <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Google.Protobuf">
- <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Abstractions">
- <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <Reference Include="Grpc.Core">
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
  <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
- <Reference Include="Grpc.Core">
- <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
