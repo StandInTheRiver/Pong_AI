@@ -53,17 +53,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\AgentEditor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\BehaviorParametersEditor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\BrainParametersDrawer.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\CameraSensorComponentEditor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\DemonstrationDrawer.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\DemonstrationImporter.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\EditorUtilities.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\RayPerceptionSensorComponentBaseEditor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Editor\RenderTextureSensorComponentEditor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\AgentEditor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\BehaviorParametersEditor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\BrainParametersDrawer.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\CameraSensorComponentEditor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\DemonstrationDrawer.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\DemonstrationImporter.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\EditorUtilities.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\RayPerceptionSensorComponentBaseEditor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Editor\RenderTextureSensorComponentEditor.cs" />
  <Reference Include="Barracuda">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/ScriptAssemblies/Barracuda.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -297,37 +297,37 @@
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

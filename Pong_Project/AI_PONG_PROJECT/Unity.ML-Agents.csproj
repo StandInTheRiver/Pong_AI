@@ -53,61 +53,61 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Academy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Agent.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\AssemblyInfo.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\RpcCommunicator.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Constants.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\DecisionRequester.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\Demonstration.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\DiscreteActionMasker.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\ApplierImpl.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\BarracudaModelParamLoader.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorNames.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\Utils\Multinomial.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BehaviorParameters.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\IPolicy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\ISensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\Observation.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponentBase.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensorComponent.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\SensorComponent.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\WriteAdapter.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\OutgoingMessage.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Timer.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\UnityAgentsException.cs" />
-     <Compile Include="C:\Users\SvenPC\Desktop\New folder\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Utilities.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Academy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Agent.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\AssemblyInfo.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Communicator\RpcCommunicator.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Constants.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\DecisionRequester.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\Demonstration.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\DiscreteActionMasker.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\ApplierImpl.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\BarracudaModelParamLoader.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorNames.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\Utils\Multinomial.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BehaviorParameters.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\IPolicy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\ISensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\Observation.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponentBase.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensorComponent.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\SensorComponent.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Sensors\WriteAdapter.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\OutgoingMessage.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Timer.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\UnityAgentsException.cs" />
+     <Compile Include="C:\Users\SvenPC\Desktop\Pong_AI\ml-agents-0.15.0\com.unity.ml-agents\Runtime\Utilities.cs" />
  <Reference Include="Barracuda">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/ScriptAssemblies/Barracuda.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -338,37 +338,37 @@
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/Pong_Project/AI_PONG_PROJECT/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>C:/Users/SvenPC/Desktop/New folder/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>C:/Users/SvenPC/Desktop/Pong_AI/ml-agents-0.15.0/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Unity/2018.4.18f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
