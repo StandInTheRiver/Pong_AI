@@ -18,11 +18,16 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (this.transform.position.x >= 16f)
+        {
+            this.transform.position = new Vector3(speed * 0, speed * 0, 0f);
+            GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_1_Score++;
+        }
+        if (this.transform.position.x <= -16f)
+        {
+            this.transform.position = new Vector3(speed * 0, speed * 0, 0f);
+            GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_2_Score++;
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-       
-    }
 }
