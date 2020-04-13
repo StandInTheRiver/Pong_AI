@@ -17,9 +17,9 @@ public class Bumper : MonoBehaviour
     void Update()
     {
         if (isBump1)
-            transform.Translate(0f, Input.GetAxis("Vertical") * speed * Time.deltaTime, 0f);
+            transform.Translate(0f, Input.GetAxis("Vertical") * speed * Time.deltaTime, 0f); //Move up and down with arrow keys
         else
-            transform.Translate(0f, Input.GetAxis("Vertical2") * speed * Time.deltaTime, 0f);
+            transform.Translate(0f, Input.GetAxis("Vertical2") * speed * Time.deltaTime, 0f); //Move up and down with 's' and 'w'
 
     }
 }
