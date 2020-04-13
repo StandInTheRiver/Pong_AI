@@ -6,7 +6,7 @@ using TMPro;
 
 public class Ball : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 6.5f;
     public Vector3 direction;
     public float margin = 0;
     public float hitPoint;

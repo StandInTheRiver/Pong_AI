@@ -51,12 +51,32 @@ public class PongArea : MonoBehaviour
     private void Start()
     {
         ResetArea();
+        GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_2_Score = 0;
+        GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_1_Score = 0;
     }
 
     private void Update()
     {
         cumulativeRewardText_Bump1.text = bumper1Agent.GetCumulativeReward().ToString("0.00");        //Displays the reward for Bumper 1     Can be removed...
         cumulativeRewardText_Bump2.text = bumper2Agent.GetCumulativeReward().ToString("0.00");        //Displays the reward for Bumper 2
+        if (ball.transform.position.x >= 16f)
+        {
+            GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_1_Score++;
+            if (bumper2Agent.isTraining)     //If training is active
+            {
+                FindObjectOfType<Bumper2Agent>().AddReward(-1f);
+                FindObjectOfType<Bumper2Agent>().EndEpisode();
+            }
+        }
+        if (ball.transform.position.x <= -16f)
+        {
+            GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_2_Score++;
+            if (bumper1Agent.isTraining)     //If training is active
+            {
+                FindObjectOfType<Bumper1Agent>().AddReward(-1f);
+                FindObjectOfType<Bumper1Agent>().EndEpisode();
+            }
+        }
     }
 
 }

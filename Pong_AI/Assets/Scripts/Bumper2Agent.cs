@@ -40,7 +40,10 @@ public class Bumper2Agent : Agent
         switch ((int)vectorAction[0])
         {
             case 0:
-                AddReward(0.001f);                        //small reward for staying still
+                if (isTraining)     //If training is active
+                {
+                    AddReward(0.001f);                        //small reward for staying still
+                }
                 break;
             case 1: //Move up
                 transform.position += new Vector3(0, Time.deltaTime * speed, 0);
@@ -49,12 +52,11 @@ public class Bumper2Agent : Agent
                 transform.position -= new Vector3(0, Time.deltaTime * speed, 0);
                 break;
         }
+
         if (ball.transform.position.x > ball.borders.right - ball.margin)            //Goal is scored against bumper 2
         {
-            AddReward(-1f);
+            //AddReward(-1f);
             EndEpisode();
-
-            GameObject.Find("PongManager").GetComponent<CountScore>().Paddle_1_Score++;
         }
     }
 
