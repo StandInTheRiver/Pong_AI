@@ -16,23 +16,12 @@ public class Bumper2Agent : Agent
 
     void Awake()
     {
-        if (bumper1.isTraining)
-        {
-            transform.localScale = new Vector3(16, 1, 0.5f);
-            rigidbody.constraints = RigidbodyConstraints.FreezePositionY;
-        }
-        else
-        {
-            transform.localScale = new Vector3(3, 1, 0.5f);
-        }
+        transform.localScale = new Vector3(3, 1, 0.5f);
     }
 
     public override void Initialize()
     {
         base.Initialize();
-        pongArea = GetComponentInParent<PongArea>();
-        ball = pongArea.ball;
-        rigidbody = GetComponent<Rigidbody>();
     }
 
     public override void OnActionReceived(float[] vectorAction) //Available actions Stay still, Move up, and Move down
@@ -53,7 +42,7 @@ public class Bumper2Agent : Agent
                 break;
         }
 
-        if (ball.transform.position.x > ball.borders.right - ball.margin)            //Goal is scored against bumper 2
+        if (ball.transform.position.x > ball.borders.right)            //Goal is scored against bumper 2
         {
             //AddReward(-1f);
             EndEpisode();
@@ -66,29 +55,8 @@ public class Bumper2Agent : Agent
         {
             if (isTraining)     //If training is active
             {
-                //transform.position += new Vector3(transform.localScale.x / 2, 0, 0);
-
                 FindObjectOfType<Bumper2Agent>().AddReward(1f);                     //Adds a reward for stopping the ball
                 FindObjectOfType<Bumper2Agent>().EndEpisode();                      //Ends the session because it has been successful
-
-
-                ball.hitPoint = (transform.position.y - transform.position.y) * 2 / transform.localScale.y;
-
-                direction.x = -direction.x + 1;
-                direction.y -= ball.hitPoint;
-
-                direction.Normalize();
-            }
-            else
-            {
-                //transform.position -= new Vector3(transform.localScale.x / 2, 0, 0);
-
-                ball.hitPoint = (transform.position.y - transform.position.y) * 2 / transform.localScale.y;
-
-                direction.x = -direction.x + 1;
-                direction.y -= ball.hitPoint;
-
-                direction.Normalize();
             }
         }
 
@@ -96,15 +64,18 @@ public class Bumper2Agent : Agent
     public override float[] Heuristic()
     {
         var Action = 0f;
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (!isTraining)
         {
-            // move up
-            Action = 1f;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            // move down
-            Action = 2f;
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                // move up
+                Action = 1f;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                // move down
+                Action = 2f;
+            }
         }
 
         return new float[] { Action };
@@ -115,7 +86,7 @@ public class Bumper2Agent : Agent
         pongArea.ResetArea();
     }
 
-    public override void CollectObservations(MLAgents.Sensors.VectorSensor sensor)
+    public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(ball.direction.x);
         sensor.AddObservation(ball.direction.y);

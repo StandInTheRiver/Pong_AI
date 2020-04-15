@@ -1,0 +1,16 @@
+Bumper_1_Learning:
+  measure: reward
+  thresholds: [0.8, 0.79, 0.78, 0.77, 0.76, 0.75, 0.74]
+  min_lesson_length: 5
+  signal_smoothing: true
+  parameters:
+    speed: [5.0, 5.0, 5.0, 5.5, 6.5, 7.0, 7.0, 7.5]
+
+
+Bumper_2_Learning:
+  measure: reward
+  thresholds: [0.8, 0.79, 0.78, 0.77, 0.76, 0.75]
+  min_lesson_length: 5
+  signal_smoothing: true
+  parameters:
+         speed: [5.0, 5.0, 5.0, 5.5, 6.5, 7.0, 7.5]

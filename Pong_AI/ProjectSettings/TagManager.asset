@@ -31,6 +31,8 @@ TagManager:
   - symbol_X_Goal
   - Bumper1
   - Bumper2
+  - Bump1Training
+  - Bump2Training
   layers:
   - Default
   - TransparentFX
