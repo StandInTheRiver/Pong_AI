@@ -33,9 +33,17 @@ public class Ball : MonoBehaviour
 
     public Borders borders = new Borders(11.04f, -3.06f, -18.56f, 15.8f);
 
+    void randomBall()
+    {
+        direction = new Vector3(Random.Range(0.1f, 3f) + Random.Range(0.1f, 0.5f), Random.Range(-1f, 3f) + Random.Range(0.1f, 0.5f), 0).normalized;
+        GetComponent<Rigidbody>().velocity = new Vector3(speed * direction.x, speed * direction.y, 0f);
+    }
+
     // Start is called before the first frame update
     void Awake()
     {
+        //bumper1 = GameObject.FindGameObjectsWithTag("bumper1_tag");
+
         if (bumper1.isTraining || bumper2.isTraining)
         {
             speed = Academy.Instance.FloatProperties.GetPropertyWithDefault("speed", 8f);
@@ -45,8 +53,7 @@ public class Ball : MonoBehaviour
         {
             speed = 8f;
         }
-        direction = new Vector3(Random.Range(0.1f, 3f)+Random.Range(0.1f, 0.5f), Random.Range(-1f, 3f)+Random.Range(0.1f, 0.5f), 0).normalized;
-        GetComponent<Rigidbody>().velocity = new Vector3(speed * direction.x, speed * direction.y, 0f);
+        randomBall();
 
         for (int i = 0; i < previousLocations.Length; i++)
         {
@@ -60,6 +67,7 @@ public class Ball : MonoBehaviour
         if (this.transform.position.x >= borders.right)
         {
             this.transform.position = new Vector3(speed * 0, speed * 0, 0f);
+            randomBall();
             if (bumper2.isTraining)     //If training is active
             {
                 FindObjectOfType<Bumper2Agent>().AddReward(-1f);
@@ -69,6 +77,7 @@ public class Ball : MonoBehaviour
         if (this.transform.position.x <= borders.left)
         {
             this.transform.position = new Vector3(speed * 0, speed * 0, 0f);
+            randomBall();
             if (bumper1.isTraining)     //If training is active
             {
                 FindObjectOfType<Bumper1Agent>().AddReward(-1f);

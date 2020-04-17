@@ -2258,7 +2258,7 @@ MonoBehaviour:
     vectorActionSize: 03000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 0
-  m_Model: {fileID: 11400000, guid: 59e7465ff987edd40a203cb13bc94804, type: 3}
+  m_Model: {fileID: 11400000, guid: e24b401c5cb24b34d891166d627b7f73, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Bumper_1_Learning
@@ -2400,5 +2400,5 @@ MonoBehaviour:
   speed: 7
   ball: {fileID: 324891166}
   direction: {x: 0, y: 0, z: 0}
-  isTraining: 1
+  isTraining: 0
   bumper2: {fileID: 1024138092}
