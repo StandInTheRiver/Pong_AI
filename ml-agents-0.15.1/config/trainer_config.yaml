@@ -23,7 +23,7 @@ default:
             strength: 1.0
             gamma: 0.99
 
-Bumper_1_Learning:
+offensive_bumper_learning:
     batch_size: 1024
     beta: 5.0e-3
     buffer_size: 10240
@@ -47,7 +47,7 @@ Bumper_1_Learning:
             strength: 1.0
             gamma: 0.99
 
-Bumper_2_Learning:
+defensive_bumper_learning:
     trainer: ppo
     batch_size: 1024
     beta: 5.0e-3

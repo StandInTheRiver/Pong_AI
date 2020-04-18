@@ -22,13 +22,14 @@ public class Ball_Controller : MonoBehaviour
     private float prev_randz;
     private float prev_randx;
     public Vector3 dir;
+    public GameObject o_agent;
+    public GameObject d_agent;
+
     // Start is called before the first frame update
     void Start()
 
     {
-
         moveRand();
-
     }
 
     void Awake()
@@ -80,6 +81,7 @@ public class Ball_Controller : MonoBehaviour
         offtimer = 25f;
         deftimer = 25f;
         stucktimer = 0f;
+        speed = Academy.Instance.FloatProperties.GetPropertyWithDefault("speed", 25f);
         moveRand();
     }
 
@@ -164,6 +166,9 @@ public class Ball_Controller : MonoBehaviour
         {
             goal_happened = true;
             d_score++;
+            //o_agent.GetComponent<O_Agent>().AddReward(-1f);             //Goal is scored on Offensive Agent
+            d_agent.GetComponent<D_Agent>().EndEpisode();
+            o_agent.GetComponent<O_Agent>().EndEpisode();
             reset_ball();
         }
 
@@ -171,6 +176,10 @@ public class Ball_Controller : MonoBehaviour
         {
             goal_happened = true;
             o_score++;
+            d_agent.GetComponent<D_Agent>().AddReward(-1f);             //Goal Scored against Defensive Agent
+            o_agent.GetComponent<O_Agent>().AddReward(1f);            //Goal is scored by Offensive Agent
+            d_agent.GetComponent<D_Agent>().EndEpisode();               
+            o_agent.GetComponent<O_Agent>().EndEpisode();
             reset_ball();
         }
 

@@ -107,10 +107,11 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  maxStep: 500
+  maxStep: 0
   ball: {fileID: 0}
   paddle: {fileID: 8396490173530874960}
   paddlescript: {fileID: 3658127198448530988}
+  Blue_Score: {fileID: 0}
 --- !u!1 &6984240314522433840
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,5 +281,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2375808035056209591}
   speed: 25
-  isTraining: 0
+  isTraining: 1
   o_agent: {fileID: 4004498402920232010}

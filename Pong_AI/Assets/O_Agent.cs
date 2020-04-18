@@ -3,22 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using MLAgents;
 using MLAgents.Sensors;
+using TMPro;
 
 public class O_Agent : Agent
 {
     public GameObject ball;
     public GameObject paddle;
     public Paddle_Controller paddlescript;
+    public TextMeshPro Red_Score;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Red_Score.text = "0";
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Red_Score.text = ball.GetComponent<Ball_Controller>().o_score.ToString("00");
     }
     private void FixedUpdate()
     {

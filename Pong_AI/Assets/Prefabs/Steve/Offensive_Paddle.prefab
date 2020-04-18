@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7818349546787655509}
   speed: 25
-  isTraining: 0
+  isTraining: 1
   o_agent: {fileID: 2105196010224435360}
 --- !u!1 &2105196010224435360
 GameObject:
@@ -254,10 +254,11 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  maxStep: 500
+  maxStep: 0
   ball: {fileID: 0}
   paddle: {fileID: 582072138969161927}
   paddlescript: {fileID: 4427367889370684710}
+  Red_Score: {fileID: 0}
 --- !u!114 &6749617210968241158
 MonoBehaviour:
   m_ObjectHideFlags: 0
