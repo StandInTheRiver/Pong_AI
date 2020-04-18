@@ -33,6 +33,15 @@ TagManager:
   - Bumper2
   - Bump1Training
   - Bump2Training
+  - Reflect
+  - col_flag
+  - off_col_flag
+  - def_col_flag
+  - Defensive_paddle
+  - Offensive_paddle
+  - Ground_floor
+  - d_net
+  - o_net
   layers:
   - Default
   - TransparentFX
@@ -43,7 +52,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - ball_layer
   - 
   - 
   - 
