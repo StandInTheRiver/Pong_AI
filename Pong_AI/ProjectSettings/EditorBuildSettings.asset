@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Stevetest.unity
-    guid: 33c0491f54360ce4b9b8e63f0eeeb892
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4fc4615954e9c9b4a8b4bfb6a731600f
+  - enabled: 1
+    path: Assets/Scenes/playervsdef.unity
+    guid: 64732edc9c4f76d4eace51563296c2ff
+  - enabled: 1
+    path: Assets/Scenes/playervsoff.unity
+    guid: cd52e648407b98c408309077408bbf0b
+  - enabled: 1
+    path: Assets/Scenes/offvoff.unity
+    guid: 7f3e2aa246817054d926ccacc28035ee
+  - enabled: 1
+    path: Assets/Scenes/defvsdef.unity
+    guid: d519fb54de261d94e8f5765f2cdb9ae5
+  - enabled: 1
+    path: Assets/Scenes/offvsdef.unity
+    guid: 05bc6e409e84261439267c5308bc04b6
   m_configObjects: {}
