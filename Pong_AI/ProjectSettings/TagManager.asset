@@ -42,6 +42,8 @@ TagManager:
   - Ground_floor
   - d_net
   - o_net
+  - off_col_flag_2
+  - def_col_flag_2
   layers:
   - Default
   - TransparentFX

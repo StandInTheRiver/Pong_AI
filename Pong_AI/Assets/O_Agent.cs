@@ -11,17 +11,34 @@ public class O_Agent : Agent
     public GameObject paddle;
     public Paddle_Controller paddlescript;
     public TextMeshPro Red_Score;
+    //public Ball_Controller redscoretext;
+    public offensive_ball_controller redscoretext;
+    public Rigidbody paddlerb;
+    public bool defensive_paddle_mode;
 
+    //comments for the code can be found in the same as D_Agent.cs, these scripts are very similar
     // Start is called before the first frame update
     void Start()
     {
         Red_Score.text = "0";
+
+        redscoretext = ball.GetComponent<offensive_ball_controller>();
+        paddlerb = paddle.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Red_Score.text = ball.GetComponent<Ball_Controller>().o_score.ToString("00");
+        if (defensive_paddle_mode == true)
+        {
+            Red_Score.text = redscoretext.d_score.ToString("00"); //update the score text 
+        }
+
+        if (defensive_paddle_mode == false)
+        {
+            Red_Score.text = redscoretext.o_score.ToString("00"); //update the score text 
+        }
+
     }
     private void FixedUpdate()
     {
@@ -40,23 +57,16 @@ public class O_Agent : Agent
 
     public override void OnActionReceived(float[] vectorAction) //Available actions Stay still, Move up, and Move down
     {
-        switch ((int)vectorAction[0])
+        if (vectorAction[0] > 0)
         {
-            case 0:
-                if (paddlescript.isTraining)     //If training is active
-                {
-                    AddReward(0.001f);                        //small reward for staying still
-                }
-                break;
-            case 1: //Move up
-                paddle.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, paddlescript.speed);
-                break;
-            case 2://Move Down
-                paddle.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -paddlescript.speed);
-                break;
+            paddlerb.velocity = new Vector3(0, 0, paddlescript.speed);
+        }
+        if (vectorAction[0] < 0)
+        {
+            paddlerb.velocity = new Vector3(0, 0, -paddlescript.speed);
         }
 
-        if (ball.GetComponent<Ball_Controller>().goal_happened == true)            //Goal is scored against bumper 2
+        if (redscoretext.goal_happened == true)            //Goal is scored against bumper 2
         {
             //AddReward(-1f);
             EndEpisode();
@@ -65,10 +75,20 @@ public class O_Agent : Agent
 
 
 
-    public override void CollectObservations(VectorSensor sensor)
+   /* public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(ball.GetComponent<Transform>().position); //xyz postion
         sensor.AddObservation(ball.GetComponent<Rigidbody>().velocity); //xyz velocity  
         sensor.AddObservation(this.GetComponent<Transform>().position); // my own position      
-    }
+    } */
+
+  /*  public override void OnEpisodeBegin()
+    {
+        if (paddle.GetComponent<Paddle_Controller>().isTraining)
+        {
+            float paddleSize = Academy.Instance.FloatProperties.GetPropertyWithDefault("Paddle_Size", 1f);
+            paddle.GetComponent<Transform>().transform.localScale = new Vector3(paddle.GetComponent<Transform>().transform.localScale.x, paddle.GetComponent<Transform>().transform.localScale.y, paddleSize);
+        }
+    } */
+
 }

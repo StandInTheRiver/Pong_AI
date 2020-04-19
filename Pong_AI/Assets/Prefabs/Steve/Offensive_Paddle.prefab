@@ -171,6 +171,8 @@ MonoBehaviour:
   speed: 25
   isTraining: 1
   o_agent: {fileID: 2105196010224435360}
+  d_agentscript: {fileID: 0}
+  o_agentscript: {fileID: 0}
 --- !u!1 &2105196010224435360
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,15 +221,8 @@ MonoBehaviour:
   m_SensorName: RayPerceptionSensor
   m_DetectableTags:
   - Ball
-  - Offensive_paddle
-  - Defensive_paddle
-  - Ground_floor
-  - def_col_flag
-  - off_col_flag
   - Reflect
-  - o_net
-  - d_net
-  m_RaysPerDirection: 8
+  m_RaysPerDirection: 25
   m_MaxRayDegrees: 2.6
   m_SphereCastRadius: 0
   m_RayLength: 346
@@ -259,6 +254,9 @@ MonoBehaviour:
   paddle: {fileID: 582072138969161927}
   paddlescript: {fileID: 4427367889370684710}
   Red_Score: {fileID: 0}
+  redscoretext: {fileID: 0}
+  paddlerb: {fileID: 0}
+  defensive_paddle_mode: 0
 --- !u!114 &6749617210968241158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,12 +270,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 9
+    vectorObservationSize: 0
     numStackedVectorObservations: 1
     vectorActionSize: 03000000
     vectorActionDescriptions: []
-    vectorActionSpaceType: 0
-  m_Model: {fileID: 11400000, guid: 551c778dc15d33b4ba9efd6b33a43f1d, type: 3}
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 11400000, guid: 76d5182f4b9cfa44bab257e780d16ff3, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: offensive_bumper_learning

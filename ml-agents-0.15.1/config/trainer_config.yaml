@@ -24,6 +24,7 @@ default:
             gamma: 0.99
 
 offensive_bumper_learning:
+    trainer: ppo
     batch_size: 1024
     beta: 5.0e-3
     buffer_size: 10240

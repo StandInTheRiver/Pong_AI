@@ -49,14 +49,8 @@ MonoBehaviour:
   m_DetectableTags:
   - Ball
   - Offensive_paddle
-  - Defensive_paddle
-  - Ground_floor
-  - def_col_flag
-  - off_col_flag
   - Reflect
-  - o_net
-  - d_net
-  m_RaysPerDirection: 8
+  m_RaysPerDirection: 25
   m_MaxRayDegrees: 2.6
   m_SphereCastRadius: 0
   m_RayLength: 346
@@ -85,12 +79,12 @@ MonoBehaviour:
     numStackedVectorObservations: 1
     vectorActionSize: 03000000
     vectorActionDescriptions: []
-    vectorActionSpaceType: 0
-  m_Model: {fileID: 11400000, guid: 7db033afdbbfca84eb8ae56170c5bb30, type: 3}
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: defensive_bumper_learning
-  TeamId: 0
+  TeamId: 1
   m_UseChildSensors: 1
 --- !u!114 &6269905480464412994
 MonoBehaviour:

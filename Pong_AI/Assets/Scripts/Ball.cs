@@ -5,6 +5,7 @@ using MLAgents;
 using TMPro;
 using MLAgents.Sensors;
 
+//unused code, was used in early versions of the game
 public class Ball : MonoBehaviour
 {
     public float speed = 6.5f;

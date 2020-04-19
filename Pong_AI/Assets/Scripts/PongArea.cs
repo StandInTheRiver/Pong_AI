@@ -4,6 +4,7 @@ using UnityEngine;
 using MLAgents;
 using TMPro;
 
+//unused code, was used in early versions of the game
 public class PongArea : MonoBehaviour 
 {
     public Bumper1Agent bumper1Agent;                   //The agent that controls the Bumpers

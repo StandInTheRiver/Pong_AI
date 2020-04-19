@@ -4,6 +4,9 @@ using UnityEngine;
 using MLAgents;
 using MLAgents.Sensors;
 
+
+
+//unused code, was used in early versions of the game
 public class Bumper2Agent : Agent
 {
     public float speed;             //may not need these...
